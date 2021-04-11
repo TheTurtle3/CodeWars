@@ -7,6 +7,7 @@
 
 using namespace std;
 
+// solution
 bool solution(string const &str, string const &ending) {
   if(str.length() < ending.length()) {
     return false;
@@ -19,8 +20,17 @@ bool solution(string const &str, string const &ending) {
   }
 }
 
+// main function
 int main() {
-    if(solution("abcd","") == true){
+    string s1, s2;
+    
+    printf("Enter your first string: ");
+    cin >> s1;
+
+    printf("Enter your second string: ");
+    cin >> s2;
+
+    if(solution(s1,s2) == true){
         printf("True");
     }
     else{
