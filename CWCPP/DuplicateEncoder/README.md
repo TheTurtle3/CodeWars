@@ -4,14 +4,11 @@ The goal of this exercise is to convert a string to a new string where each char
 
 Examples:
 
-"din" => "((("
-
-"recede" => "()()()"
-
-"Success" => ")())())"
-
-"(( @" => "))(("
+- "din" => "((("
+- "recede" => "()()()"
+- "Success" => ")())())"
+- "(( @" => "))(("
 
 Notes:
 
-Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
+- Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
